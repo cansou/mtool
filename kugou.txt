@@ -1,0 +1,10 @@
+downloadClass = "com.kugou.android.common.widget.MvSelectDialog";
+adMethod = "e";
+adImageViewField = "q";
+adClass2 = "com.kugou.android.common.widget.b.b";
+adMethod2 = "a";
+adImageViewField2 = "af";
+popViewClass = "com.kugou.android.app.player.domain.poppanel.view.PlayerPopLayout";
+viewLinearLayout = "b";
+pushADClass = "com.kugou.android.app.NavigationFragment";
+pushMethod = "d";

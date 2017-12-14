@@ -1,0 +1,22 @@
+GET /cgi-bin/mmwebwx-bin/webwxgetcontact?r=1500559766356&seq=0&skey=@crypt_bf9a0436_87836a7500a256f11b73e83791b3a650 HTTP/1.1
+
+微信数据库密码:9c3142d
+
+findAndHookMethod("com.tencent.wcdb.DatabaseUtils", lpparam.classLoader, "insertInternal", ContentValues.class, boolean.class, new XC_MethodHook() {
+            @Override
+            protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                super.beforeHookedMethod(param);
+
+            }
+
+            @Override
+            protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                Object obj1=param.args[1];
+                ContentValues cv= (ContentValues) param.args[0];
+                XposedBridge.log("参数2:"+obj1.toString());
+                for (String key: cv.keySet()){
+                    XposedBridge.log("key="+key+",value="+cv.get(key));
+                }
+            }
+
+        });

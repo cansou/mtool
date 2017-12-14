@@ -1,0 +1,158 @@
+﻿我的Android笔记:
+
+0, 复制文字内容到剪切板: 
+	// 从API11开始android推荐使用android.content.ClipboardManager
+        // 为了兼容低版本我们这里使用旧版的android.text.ClipboardManager，虽然提示deprecated，但不影响使用。
+        ClipboardManager cm = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        // 将文本内容放到系统剪贴板里。
+        cm.setText(tvMsg.getText());
+
+1, 获取SD卡绝对路径: String path= Environment.getExternalStorageDirectory().getPath();
+2, 读取文件权限: <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+3, 菜单映射: 
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_javaer,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id=item.getItemId();
+        switch (id){
+            case R.id.open:
+                Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
+                startActivity(intent);
+                return true;
+            case R.id.openww:
+                Intent Fix = new Intent(MainActivity.this, FixService.class);
+                //启动FixService
+                startService(Fix);
+                Log.i(TAG,"开启悬浮");
+                return true;
+            case R.id.update:
+                Toast.makeText(this,"更新",Toast.LENGTH_SHORT).show();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+4, 回退到桌面不退出应用:
+	Intent backHome=new Intent(Intent.ACTION_MAIN);//回退返回桌面,不退出应用
+        backHome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        backHome.addCategory(Intent.CATEGORY_HOME);
+        startActivity(backHome);
+
+5, 复制assets目录下的资源文件到任意目录:
+	public boolean copy(Context context, String assets, String savePath, String saveName){
+        String file=savePath+"/"+saveName;
+        try {
+            InputStream is=context.getResources().getAssets().open(assets);
+            FileOutputStream fos=new FileOutputStream(file);
+            byte[] buffer=new byte[1024];
+            int count=0;
+            while ((count=is.read(buffer))>0){
+                fos.write(buffer,0,count);
+            }
+            fos.flush();
+            fos.close();
+            is.close();
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+6, //动态申请读写SD卡权限
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static String[] PERMISSIONS_STORAGE = {
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.WRITE_EXTERNAL_STORAGE" };
+    public static void verifyStoragePermissions(Activity activity) {
+
+        try {
+            //检测是否有写的权限
+            int permission = ActivityCompat.checkSelfPermission(activity,
+                    "android.permission.WRITE_EXTERNAL_STORAGE");
+            if (permission != PackageManager.PERMISSION_GRANTED) {
+                // 没有写的权限，去申请写的权限，会弹出对话框
+                ActivityCompat.requestPermissions(activity, PERMISSIONS_STORAGE,REQUEST_EXTERNAL_STORAGE);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+7, private Handler handler=new Handler(){//线
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what){
+                case SHOW_RESPONSE:
+                    String str= (String) msg.obj;
+                    net.setText(str);
+            }
+        }
+    };
+    private void sendRequest(final String url){
+        final String[] Url = new String[1];
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                HttpURLConnection connection=null;
+                Url[0] =url;
+                try {
+                    URL url=new URL(Url[0]);
+                    connection= (HttpURLConnection) url.openConnection();
+                    connection.setRequestMethod("GET");
+                    connection.setConnectTimeout(8000);
+                    connection.setReadTimeout(8000);
+
+                    InputStream in=connection.getInputStream();
+                    BufferedReader br=new BufferedReader(new InputStreamReader(in));
+                    StringBuilder response=new StringBuilder();
+                    String line=null;
+                    while ((line=br.readLine())!=null){
+                        if(line.contains("<div class=\"NewsContent\">")){
+                            response.append(line);
+                            break;
+                        }
+                    }
+                    String str=response.toString();
+                    String[] array=str.split(">|<");
+                    Log.i("java",array.length+"数组长度");
+                    Message message=new Message();
+                    message.what=5;
+                    message.obj=array[4];
+                    //message.obj=str;
+                    handler.sendMessage(message);
+                    br.close();
+                    in.close();
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }finally {
+                    if(connection!=null){
+                        connection.disconnect();
+                    }
+                }
+            }
+        }).start();
+    }
+8, 让EditText不自动获取焦点:在它的父容器里加2条属性
+	android:focusable="true"
+    	android:focusableInTouchMode="true">
+
+9, 打开设置中辅助功能界面
+	Intent settings=new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
+        startActivity(settings);
+
+1, 解析16进制颜色值,并为TextView设置颜色
+	tv.setTextColor(Color.paseColor("#ff0000"));
+
+2, Shell命令实现手机软重启:
+	Utils.Shell("setprop ctl.restart surfaceflinger");
+        Utils.Shell("setprop ctl.restart zygote");
+
+3, 
