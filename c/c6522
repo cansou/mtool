@@ -145,4 +145,8 @@
 "conversation_onMenuClick_Method":"c",
 "conversation_j_Class_Fragment":"com.tencent.mm.ui.conversation.j",
 "conversation_j_Class_Fragment_FieldBaseAdapter":"xlf",
+"MessageClearCClass":"com.tencent.mm.y.c",
+"MessageCMethod":"yT",
+"MessageClearVeMethod":"Ve",
+"MessageClearVfMethod":"Vf",
 "h":7}}}
