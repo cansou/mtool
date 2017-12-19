@@ -250,4 +250,6 @@
 "MessageCMethod":"yT",
 "MessageClearVeMethod":"Ve",
 "MessageClearVfMethod":"Vf",
+"addMember_dClass":"com.tencent.mm.plugin.chatroom.d.d",
+"accept_nClass":"com.tencent.mm.pluginsdk.model.n",
 "h":7}}}
