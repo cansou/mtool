@@ -1,7 +1,10 @@
 微信(6.5.10)版本逆向记录
 
-//数据库密码(Javaer):9c3142d
+//数据库密码(Javaer):4926f5f
+//数据库密码(苦瓜):9c3142d
+//苦瓜新:a06286d
 //数据库密码(南城):d99d2bd
+//数据库密码(w):73ef89b
 
 字符串资源:
 微信运动类:
@@ -232,4 +235,8 @@ l:com.tencent.mm.plugin.sns.ui.SightUploadUI
 k:com.tencent.mm.plugin.sns.ui.SnsUploadUI
 
 
-
+06-25 15:49:22.841 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.conversation.j
+06-25 15:49:22.844 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.contact.AddressUI$a
+06-25 15:49:22.847 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.h
+06-25 15:49:22.850 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.ab
+06-25 15:49:23.456 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.chatting.y
