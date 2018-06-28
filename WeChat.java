@@ -245,3 +245,19 @@ k:com.tencent.mm.plugin.sns.ui.SnsUploadUI
 
 .TimelineObject.username
 
+
+
+06-28 09:47:27.286 23430-23430/? I/vxv: 消息信息:
+类型:16777265
+发送者:7384479817@chatroom
+是否自发:0
+内容:wxid_9x2a4rncnih522:
+<msg><appmsg appid="" sdkver="0"><title>[踢] 文青翘楚　</title><des>[踢] 文青翘楚　</des><username></username><action>view</action><type>1</type><showtype>0</showtype><content>#b xintufendou*~无关链接~*</content><url></url><lowurl></lowurl><dataurl></dataurl><lowdataurl></lowdataurl><contentattr>0</contentattr><streamvideo><streamvideourl></streamvideourl><streamvideototaltime>0</streamvideototaltime><streamvideotitle></streamvideotitle><streamvideowording></streamvideowording><streamvideoweburl></streamvideoweburl><streamvideothumburl></streamvideothumburl><streamvideoaduxinfo></streamvideoaduxinfo><streamvideopublishid></streamvideopublishid></streamvideo><canvasPageItem><canvasPageXml><![CDATA[]]></canvasPageXml></canvasPageItem><appattach><attachid></attachid><cdnthumburl>305c020100045530530201000204ac4d40c002032f540602042e89903a02045b2a3fa8042e6175706170706d73675f373762656463633064653235313366395f313532393439353432383233375f36303437350204010800030201000400</cdnthumburl><cdnthumbmd5>707d2fb503ef9ef398b2deb5739f3b29</cdnthumbmd5><cdnthumblength>5749</cdnthumblength><cdnthumbheight>120</cdnthumbheight><cdnthumbwidth>120</cdnthumbwidth><cdnthumbaeskey>c2a2b394748f4322ae03b47c23152b90</cdnthumbaeskey><aeskey>c2a2b394748f4322ae03b47c23152b90</aeskey><encryver>1</encryver><fileext></fileext><islargefilemsg>0</islargefilemsg></appattach><extinfo></extinfo><androidsource>3</androidsource><thumburl></thumburl><mediatagname></mediatagname><messageaction><![CDATA[]]></messageaction><messageext><![CDATA[]]></messageext><emoticongift><packageflag>0</packageflag><packageid></packageid></emoticongift><emoticonshared><packageflag>0</packageflag><packageid></packageid></emoticonshared><designershared><designeruin>0</designeruin><designername>null</designername><designerrediretcturl>null</designerrediretcturl></designershared><emotionpageshared><tid>0</tid><title>null</title><desc>null</desc><iconUrl>null</iconUrl><secondUrl></secondUrl><pageType>0</pageType></emotionpageshared><webviewshared><shareUrlOriginal></shareUrlOriginal><shareUrlOpen></shareUrlOpen><jsAppId></jsAppId><publisherId></publisherId></webviewshared><template_id>0</template_id><md5>707d2fb503ef9ef398b2deb5739f3b29</md5><weappinfo><username></username><appid></appid><appservicetype>0</appservicetype></weappinfo><statextstr></statextstr><websearch></websearch></appmsg><fromusername>wxid_9x2a4rncnih522</fromusername><scene>0</scene><appinfo><version>1</version><appname></appname></appinfo><commenturl></commenturl></msg>
+图片路径:THUMBNAIL_DIRPATH://th_7b21bcdf55db7c52b3c2a96690a48640
+消息ID:25926
+消息svrID:5951890282986866998
+
+
+com.tencent.mm.ui.chatting.j (6.6.7-1320) 链接解析 //(parse app message content fail)
+
+com.tencent.mm.app.WorkerProfile$10 (6.6.7-1320) 消息重发 //(resendVideoMsg, msgId:%d, msgtime: %d, infotime:%d)
