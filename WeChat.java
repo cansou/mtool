@@ -258,6 +258,16 @@ k:com.tencent.mm.plugin.sns.ui.SnsUploadUI
 消息svrID:5951890282986866998
 
 
+MMActivity
+
+ChattingUI
+
+LauncherUI
+
+ui.chatting.y
+
 com.tencent.mm.ui.chatting.j (6.6.7-1320) 链接解析 //(parse app message content fail)
 
 com.tencent.mm.app.WorkerProfile$10 (6.6.7-1320) 消息重发 //(resendVideoMsg, msgId:%d, msgtime: %d, infotime:%d)
+
+com.tencent.mm.modelcdntran.f (6.6.7-1320) //(download finish. totalLen %d)
