@@ -282,3 +282,4 @@ o.Pf().br(
 /cgi-bin/micromsg-bin/mmsnscomment
 /cgi-bin/micromsg-bin/mmsnsadcomment
 /cgi-bin/micromsg-bin/uploadvideo
+/cgi-bin/micromsg-bin/sendsight
