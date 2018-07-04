@@ -235,6 +235,8 @@ l:com.tencent.mm.plugin.sns.ui.SightUploadUI
 k:com.tencent.mm.plugin.sns.ui.SnsUploadUI
 
 
+----6.6.7
+
 06-25 15:49:22.841 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.conversation.j  //微信
 06-25 15:49:22.844 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.contact.AddressUI$a  //通讯录
 06-25 15:49:22.847 31992-31992/? I/vxv: com.tencent.mm.ui.x>>>>>>>>>>class com.tencent.mm.ui.h
@@ -266,13 +268,17 @@ LauncherUI
 
 ui.chatting.y
 
-public bd
-
 com.tencent.mm.ui.chatting.j (6.6.7-1320) 链接解析 //(parse app message content fail)
 
 com.tencent.mm.app.WorkerProfile$10 (6.6.7-1320) 消息重发 //(resendVideoMsg, msgId:%d, msgtime: %d, infotime:%d)
 
 com.tencent.mm.modelcdntran.f (6.6.7-1320) //(download finish. totalLen %d)
 
-
 (/cgi-bin/micromsg-bin/checkbigfiledownload)
+
+msgSvrId
+o.Pf().br(
+
+/cgi-bin/micromsg-bin/mmsnscomment
+/cgi-bin/micromsg-bin/mmsnsadcomment
+/cgi-bin/micromsg-bin/uploadvideo
