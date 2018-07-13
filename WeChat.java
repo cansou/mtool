@@ -283,3 +283,17 @@ o.Pf().br(
 /cgi-bin/micromsg-bin/mmsnsadcomment
 /cgi-bin/micromsg-bin/uploadvideo
 /cgi-bin/micromsg-bin/sendsight
+
+/cgi-bin/micromsg-bin/getopenimcontact
+
+com.tencent.mm.modelcdntran.f.g()//请求视频
+
+com.tencent.mm.modelvoice.q
+com.tencent.mm.modelvoice.f
+com.tencent.xweb.WebView
+com.tencent.mm.plugin.webwx.a.e
+
+com.tencent.mm.plugin.sns.model.aq
+com.tencent.mm.plugin.sns.model.u
+com.tencent.mm.plugin.sns.model.y
+com.tencent.mm.plugin.sns.model.r
