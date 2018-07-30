@@ -8,7 +8,7 @@
 
 //发送视频  "send sight to %s, videopath %s, thumbpath %s url: %s time: %d, duration: %s"
 
-//朋友圈下载视频？ "start online download video %s isPlayMode %b"
+//朋友圈下载视频？ "start online download video %s isPlayMode %b"  prepare stream download sns video %s mkDir %b
 
 字符串资源:
 微信运动类:
