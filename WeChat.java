@@ -6,6 +6,10 @@
 //数据库密码(南城):d99d2bd
 //数据库密码(w):73ef89b
 
+//发送视频  "send sight to %s, videopath %s, thumbpath %s url: %s time: %d, duration: %s"
+
+//朋友圈下载视频？ "start online download video %s isPlayMode %b"
+
 字符串资源:
 微信运动类:
 R.l.epN = 分享给朋友;
