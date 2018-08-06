@@ -10,6 +10,23 @@
 
 //朋友圈下载视频？ "start online download video %s isPlayMode %b"  prepare stream download sns video %s mkDir %b
 
+//解析朋友圈对象 "MicroMsg.SnsInfoStorageLogic", "SnsObject parseFrom error"
+
+//ChattingFootEditMaxHeigh   "MicroMsg.SnsVideoLogic", "get sns video thumb path %s [%b]"
+
+ChattingUI intent参数
+{
+    key: Chat_Mode
+    value: 1
+    class: java.lang.Integer
+},
+{
+    key: Chat_User
+    value: wxid_flcwurtc3qgc22
+    class: java.lang.String
+},
+
+
 字符串资源:
 微信运动类:
 R.l.epN = 分享给朋友;
