@@ -3,7 +3,7 @@
 //数据库密码(Javaer):4926f5f
 //数据库密码(苦瓜):9c3142d
 //苦瓜新:a06286d
-//数据库密码(南城):d99d2bd
+//数据库密码(南城):0a2bbfb
 //数据库密码(w):73ef89b
 
 //发送视频  "send sight to %s, videopath %s, thumbpath %s url: %s time: %d, duration: %s"
@@ -14,7 +14,11 @@
 
 //ChattingFootEditMaxHeigh   "MicroMsg.SnsVideoLogic", "get sns video thumb path %s [%b]"
 
-ChattingUI intent参数
+//聊天操作(6.6.7)
+com.tencent.mm.model.c.FW().Yv(Sring wxid)//置顶聊天
+com.tencent.mm.model.c.FW().Yw(Sring wxid)//取消置顶
+
+<0>ChattingUI intent参数
 {
     key: Chat_Mode
     value: 1
@@ -25,6 +29,8 @@ ChattingUI intent参数
     value: wxid_flcwurtc3qgc22
     class: java.lang.String
 },
+
+<1>com.tencent.mm.ui.conversation.g //聊天主界面的adapter
 
 
 字符串资源:
