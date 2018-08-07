@@ -20,6 +20,8 @@ com.tencent.mm.model.c.FW().Yw(Sring wxid)//取消置顶
 
 com.tencent.mm.pluginsdk.ui.a.b.a(ImageView img, String wxid);//设置头像, wxid
 
+//6.6.7 "/cgi-bin/mmocbiz-bin/reportpluginstat"
+
 <0>ChattingUI intent参数
 {
     key: Chat_Mode
