@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <float name="key_sync_session" value="0.5207752" />
+    <string name="last_login_nick_name">mmp</string>
+    <string name="reg_last_exit_ui">L100_100_logout</string>
+    <string name="last_login_use_voice">49152</string>
+    <string name="last_login_uin">3137775935</string>
+    <long name="__MID_LAST_CHECK_TIME__" value="1533293600420" />
+    <long name="handler_trace_file_full_size" value="30720" />
+    <string name="__MTA_DEVICE_INFO__">xjgD6zAYj0800xSC0JxA4XCTJJV37nm8SnAJpFaX2PhicUBmi+vXgrY0Hzb7T3EJQUN0x+dWSUxpQydO/guHMQhZz6Jr5MWVUOevSiXz4L5xofEWe9ZkCRZqo3FMFxsqIAZox+SCzb5cNFw6wk+CY2SqN0Du</string>
+    <boolean name="hasTryToInitVoiceControlData" value="true" />
+    <string name="wxid_cw9yxnz1x4g922_sns_entrance_disappear">on</string>
+    <string name="login_user_name">man031426520</string>
+    <long name="sql_trace_main_thread_interval_time" value="500" />
+    <long name="check_trim_time" value="1533293586" />
+    <boolean name="hasInitVoiceControlData" value="false" />
+    <long name="sql_trace_child_transaction_interval_time" value="5000" />
+    <string name="__MTA_DEVICE_INFO_CHECK_ENTITY__">{&quot;ts&quot;:1533293600424,&quot;times&quot;:0,&quot;mfreq&quot;:100,&quot;mdays&quot;:3}</string>
+    <long name="handler_debug_log_time_main" value="1500" />
+    <string name="last_login_bind_mobile">18538377538</string>
+    <long name="274544com.tencent.xin.emoticon.person.stiker_15126186968204a3d7ad0ef124" value="1533296802516" />
+    <int name="sns_respone_count" value="10" />
+    <long name="274544com.tencent.xin.emoticon.person.stiker_1473576871efbbb7b61156bf79" value="1533299204506" />
+    <long name="handler_log_file_max_size" value="35840" />
+    <string name="key_app_ids_registion_while_not_login">wxd4d4569ad89e4fb7|</string>
+    <long name="274544com.tencent.xin.emoticon.person.stiker_148673854016d8bc4733e635ab" value="1533301945446" />
+    <string name="login_weixin_username">wxid_cw9yxnz1x4g922</string>
+    <long name="sql_trace_log_file_max_size" value="35840" />
+    <long name="handler_upload_time_interval" value="86400000" />
+    <long name="sql_trace_main_thread_select_interval_time" value="300" />
+    <string name="wxid_tuqxsdxxjrxe22_sns_entrance_disappear">on</string>
+    <int name="last_reportdevice_clientversion" value="637929270" />
+    <long name="sql_trace_file_full_size" value="30720" />
+    <long name="sql_trace_child_thread_interval_time" value="1000" />
+    <int name="last_reportdevice_channel" value="0" />
+    <long name="sql_upload_time_interval" value="10800000" />
+    <string name="last_bind_info">5</string>
+    <boolean name="Main_ShortCut" value="true" />
+    <long name="handler_debug_log_time" value="15000" />
+    <long name="274544com.tencent.xin.emoticon.person.stiker_150864957542151f6919f6aeac" value="1533294207529" />
+    <string name="reg_next_enter_ui">L100_100_logout</string>
+    <long name="274544com.tencent.xin.emoticon.person.stiker_14833549969926c23b5b867591" value="1533295996556" />
+    <long name="274544com.tencent.xin.emoticon.person.stiker_15142082970b8f5f71c76adbec" value="1533294191712" />
+    <long name="trace_config_last_update_time" value="1533294478458" />
+    <boolean name="login_upload_contacts_already_displayed" value="true" />
+    <long name="sql_trace_main_thread_update_interval_time" value="500" />
+    <string name="last_login_bind_qq">1782596022</string>
+    <boolean name="isLogin" value="true" />
+    <int name="sns_control_flag" value="3" />
+    <long name="274544com.tencent.xin.emoticon.person.stiker_147989732562053cb23702d001" value="1533296279449" />
+    <string name="last_avatar_path">/data/user/0/com.tencent.mm/MicroMsg/user_580bd681aaafa7491f36400aaab1d54b.png</string>
+</map>
