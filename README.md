@@ -1,6 +1,8 @@
 # 常用命令
 ### `安卓`
-[**安卓**](./android.md)
+[**安卓相关**](./android.md)
+
+[**Windows**](./windows.md)
 # Mac 我的快捷键
 ###  `全局`
 
