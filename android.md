@@ -16,10 +16,10 @@
 # mysql命令
 ### `登录数据库`
 `mysql -u root -p test`
-**===> test 为数据库名**
+**===> test为数据库名**
 ### `切换数据库`
 `use test`
-**===>切换到test数据库**
+**===> 切换到test数据库**
 ### `查询表中所有数据`
 `select * from tb_user`
-**===>tb_user为数据库表名**
+**===> tb_user为数据库表名**
