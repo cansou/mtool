@@ -37,7 +37,7 @@ com.tencent.mm.pluginsdk.ui.a.b.a(ImageView img, String wxid);//设置头像, wx
 <1>com.tencent.mm.ui.conversation.g //聊天主界面的adapter
 
 public final boolean dd(String str) {
-	String nJ = k.nJ(q.GF());
+	String nJ = k.nJ(q.GF());//貌似生成文件路径
 	g gVar = new g();
 	gVar.field_filename = nJ;
 	gVar.field_user = str;
