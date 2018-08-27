@@ -9,3 +9,5 @@
 `md dirname`
 ### `创建文件`
 `echo hello > hello.txt`
+
+`echo test > test`
