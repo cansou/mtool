@@ -36,6 +36,35 @@ com.tencent.mm.pluginsdk.ui.a.b.a(ImageView img, String wxid);//设置头像, wx
 
 <1>com.tencent.mm.ui.conversation.g //聊天主界面的adapter
 
+public final boolean dd(String str) {
+	String nJ = k.nJ(q.GF());
+	g gVar = new g();
+	gVar.field_filename = nJ;
+	gVar.field_user = str;
+	gVar.field_createtime = System.currentTimeMillis() / 1000;
+	gVar.field_clientid = nJ;
+	gVar.field_lastmodifytime = System.currentTimeMillis() / 1000;
+	gVar.field_status = 1;
+	gVar.field_human = q.GF();
+	gVar.bWA = -1;
+	k bGt = d.bGt();
+	x.d("MicroMsg.VoiceRemindStorage", "VoiceRemindStorage Insert");
+	int insert = (int) bGt.diF.insert("VoiceRemindInfo", "", gVar.wH());
+	x.d("MicroMsg.VoiceRemindStorage", "VoiceRemindStorage Insert result" + insert);
+	if (insert == -1) {
+		nJ = null;
+	}
+	this.fileName = nJ;
+	au.HV().a(this);
+	int yB = au.HV().yB();
+	this.orw = false;
+	if (yB != 0) {
+		ew(100);
+	} else {
+		new i$3(this).sendEmptyMessageDelayed(0, 50);
+	}
+	return false;
+}
 
 字符串资源:
 微信运动类:
