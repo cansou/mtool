@@ -1,3 +1,7 @@
+# logcat命令
+### 打印vxv标签日志保存到gan.java文件中
+`adb logcat -s "vxv" > gan.java`
+
 # apktool命令
 ### `解包`
 `apktool d wechat.apk -r -o out`
