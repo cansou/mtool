@@ -19,4 +19,4 @@ public static void load(Context context)throws Throwable{
 `javac Test.java`
 ### 如何生成`dex`
 `dx --dex --output=test.dex Test.java UserInfo.java Category.java`
-###### dx命令在`sdk/build-tools/27.0.3/`目录,最后的java源文件,如果源码写在对应的包里,需要预先创建对应的文件夹,`将生成的.class文件放入与包对应的文件夹中`,才可编译成功.
+##### dx命令在`sdk/build-tools/27.0.3/`目录,最后的java源文件,如果源码写在对应的包里,需要预先创建对应的文件夹,`将生成的.class文件放入与包对应的文件夹中`,才可编译成功.
