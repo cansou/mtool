@@ -1,4 +1,4 @@
-# 简单记录一下DexClassloader
+# 简单记录一下使用DexClassloader
 ****
 ```java
 public static void load(Context context)throws Throwable{
@@ -15,3 +15,8 @@ public static void load(Context context)throws Throwable{
         Vlog.log("test" + str);
 }
 ```
+# 如何生成`.class`文件
+`javac Test.java`
+# 如何生成`dex`
+`dx --dex --output=test.dex Test.java UserInfo.java Category.java`
+###### dx命令在sdk/build/27.0.3/目录

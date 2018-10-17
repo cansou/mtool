@@ -1,6 +1,6 @@
-# 列表知识
-### `DexClassloader`
+# 其他笔记
 [DexClassloader](DexClassloader.md)
+[Assets](Assets.md)
 # 常用命令
 ### `安卓`
 [**安卓相关**](./android.md)
