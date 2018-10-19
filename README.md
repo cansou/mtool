@@ -2,10 +2,10 @@
 [DexClassloader](DexClassloader.md)
 [Assets](Assets.md)
 # 常用命令
-### `安卓`
-[**安卓相关**](./android.md)
+[**Android**](./android.md)
 
 [**Windows**](./windows.md)
+[**IPhone**](./iphone.md)
 # Mac 我的快捷键
 ###  `全局`
 
