@@ -18,12 +18,14 @@
 `ssh -p 29166 -u root@74.82.208.54`
 
 # mysql命令
-### `登录数据库`
+### 登录数据库
 `mysql -u root -p test`
 **===> test为数据库名**
-### `切换数据库`
+### 切换数据库
 `use test`
 **===> 切换到test数据库**
-### `查询表中所有数据`
+### 查询表中所有数据
 `select * from tb_user`
 **===> tb_user为数据库表名**
+### 查询某个字段包含某个字符
+`select * from tb_user where user_name like '%下%';`
