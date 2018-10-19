@@ -3,15 +3,15 @@
 `adb logcat -s "vxv" > gan.java`
 
 # apktool命令
-### `解包`
+### 解包
 `apktool d wechat.apk -r -o out`
-### `打包`
+### 打包
 `apktool b out`
 
 # apk签名命令
-### `mac`
+### mac
 `jarsigner -verbose -keystore company.jks -signedjar signed.apk unsigned.apk javaer`
-### `windows`
+### windows
 `jarsigner -verbose -keystore company.jks -signedjar signed.apk unsigned.apk javaer`
 
 # ssh远程登录
