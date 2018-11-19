@@ -4,13 +4,13 @@
 
 [Assets](Assets.md)
 # 常用命令
-[**Android**](./android.md)
+* [**Android**](./android.md)
 
-[**Windows**](./windows.md)
+* [**Windows**](./windows.md)
 
-[**Mac**](./mac.md)
+* [**Mac**](./mac.md)
 
-[**IPhone**](./iphone.md)
+* [**IPhone**](./iphone.md)
 # Mac 我的快捷键
 ###  `全局`
 
