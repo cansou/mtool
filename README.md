@@ -1,4 +1,7 @@
 # 其他笔记
+[Smali](./smali.md)
+
+
 [DexClassloader](DexClassloader.md)
 
 
