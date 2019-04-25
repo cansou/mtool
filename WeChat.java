@@ -6,17 +6,6 @@
 //数据库密码(南城):0a2bbfb
 //数据库密码(w):73ef89b
 
-[6.7.3]
-捡漂流瓶  ===> "/cgi-bin/micromsg-bin/pickbottle"
-
-打开漂流瓶  ===> "/cgi-bin/micromsg-bin/openbottle"
-
-捡漂流瓶  ===> "/cgi-bin/micromsg-bin/searchcontact"
-
-扔漂流瓶(文字)  ===> "/cgi-bin/micromsg-bin/throwbottle"
-
-[6.7.3]
-
 //发送视频  "send sight to %s, videopath %s, thumbpath %s url: %s time: %d, duration: %s"
 
 //朋友圈下载视频？ "start online download video %s isPlayMode %b"  prepare stream download sns video %s mkDir %b
